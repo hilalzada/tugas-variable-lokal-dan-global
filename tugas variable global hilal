@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+//ini adalah variable global MUHAMMAD  HILAL ZADA
+int x = 90;
+
+int contohFunction()
+{
+	int x = 45;
+	return x;
+}
+
+int y = 80;
+
+int contohFunction2()
+{
+	int y = 40;
+	return y;
+}
+
+int z = 70;
+
+int contohFunction3()
+{
+	int z = 35;
+	return z;
+}
+
+int main()
+{
+	cout << "ini adalah variable global 1 = " << x << endl;
+	cout << "ini adalah variable global dari fungsi contohFunction = " <<contohFunction();
+	cout << endl;
+	cout << "ini adalah variable global 2 =  " << y << endl;
+	cout << "ini adalah variable global dari fungsi contohFunction = " <<contohFunction2();
+	cout << endl;
+	cout << "ini adalah variable global 3 = " << z << endl;
+	cout << "ini adalah variable global dari fungsi contohFunction = " <<contohFunction3();
+	cout << endl;
+}
